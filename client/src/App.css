@@ -1,0 +1,44 @@
+body {
+    background-color: #f0f2f5 !important;
+    color: "#00496d"
+}
+
+.heart {
+    height: 30px;
+    width: auto;
+    color: rgb(182, 173, 173);
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    float: right;
+}
+
+.heart:hover {
+    color: rgb(192, 39, 39);
+}
+
+.heart.active {
+    color: red
+}
+
+.xCircle {
+    color: rgb(182, 173, 173)
+}
+
+.xCircle:hover {
+    color: red
+}
+
+
+.edit {
+
+
+    cursor: "pointer";
+    float: right;
+    color: rgb(182, 173, 173)
+}
+
+.edit:hover {
+    color: blue;
+}
